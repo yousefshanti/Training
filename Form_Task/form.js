@@ -10,11 +10,11 @@ function validateForm() {
 			return false;
 		}
 		else if ( !/[0-9]/.test(password) ) {
-			alert("Password must contain at least one number");
+			alert("Password must contain a number");
 			return false;
 		}
 		else if ( !/[a-zA-Z]/.test(password) ) {
-			alert("Password must contain at least one letter");
+			alert("Password must contain a letter");
 			return false;
 		}
 		else if ( password.length < 8 ) {
