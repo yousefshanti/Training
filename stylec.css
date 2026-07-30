@@ -129,15 +129,11 @@ display: flex;
 align-items: center;
 flex-direction: row;
 gap: 40px;
-    width: 100%;
+width: 100%;
 
 /*     background-image: url('img/top-view-coffee-accessories-with-copy-space.jpg');
  */
 }
-
-
-
-
 
 
 .hero-text {
