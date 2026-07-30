@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<form>
-	<label for="email">Email:</label>
-		<input type="email" id="email" name="email">
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password">
-<br>
-		<button onclick="validateForm()" type="submit">Submit</button>
-	</form>
-</body>
-</html>
-
-<style>
-	form {
-
-		width: 300px;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-		border: 1px solid #ccc;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		position: absolute;
-        top:35%;
-        left: 35%;
-        padding: 10px;
-	}
-</style>
-<script>
-	function validateForm() {
+function validateForm() {
 		var email = document.getElementById("email").value;
 		var password = document.getElementById("password").value;
 		if (email == "" || password == "") {
@@ -73,4 +38,3 @@
 			return true;
 		}
 	}
-</script>
